@@ -5,9 +5,19 @@
   "license": "MIT",
   "devDependencies": {
     "stylelint": "^10.1.0",
-    "stylelint-config-airbnb": "^0.0.0",
-    "stylelint-config-standard": "^18.3.0",
-    "stylelint-order": "^3.0.1",
-    "stylelint-scss": "^3.9.2"
-  }
+    "stylelint-config-standard": "^18.3.0"
+  },
+  "stylelint": {
+    "extends": "stylelint-config-standard",
+    "rules": {
+      "at-rule-empty-line-before": null
+    }
+  },
+  "dependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "description": ""
 }
